@@ -1,8 +1,26 @@
 .test {
-  text-align: right;
+  text-align: center;
   color: #00078e;
+  border: 2px solid black;
+  padding: 10px;
 }
 
 .test>ul {
   list-style: none;
+}
+
+.smallPicture {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+}
+
+.smallPicture>img {
+  width: inherit;
+  height: inherit;
+}
+
+.galery>li {
+  display: inline-block;
 }
